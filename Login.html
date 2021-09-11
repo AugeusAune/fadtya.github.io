@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/img/reader.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="flex min-h-screen">
+        <main class="w-full bg-red-400 p-7 space-y-5 hidden md:block">
+            <header>
+                <nav class="p-2">
+                    <h4 class="text-xl text-white font-normal uppercase">traveliour</h4>
+                </nav>
+            </header>
+            <div class="p-3 space-y-6">
+                <h1 class="text-2xl text-white font-semibold mb-10">
+                    Make Your Journey Fun and Safe
+                </h1>
+                <p class="text-white text-sm fa-indent">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa sit in laborum temporibus ut minus labore fuga esse rerum expedita corporis earum maiores molestiae dicta enim ducimus architecto, eaque est.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, beatae. Sed dolorum dolor fugit cupiditate nemo omnis commodi, cumque repellendus, nesciunt et amet velit error ex illum voluptas id ut.
+                </p>
+                <div class="justify-center items-center flex py-8">
+                    <img src="./assets/img/7437.jpg" alt="reader" class="rounded-lg w-full">
+                </div>
+            </div>
+        </main>
+        <main class="flex-auto bg-white space-y-7 p-2 mt-20">
+            <div class="text-center p-5 mt-5">
+                <h4 class="text-2xl text-red-400 font-semibold">
+                    Sign In
+                </h4>
+            </div>
+            <section class="flex flex-col items-center justify-center p-5 max-h-full">
+                <form action="" class="space-y-5 w-96">
+                    <div class="email">
+                        <div class="relative mt-1">
+                            <label for="email" class="text-red-400 font-normal text-md">Email</label>
+                            <input type="email"  id="email" class=" mt-2 p-2 w-full p-3 rounded-lg text-sm focus:outline-none border border-red-200 focus:ring-4 focus:ring-red-100 focus:border-red-400 transition duration-200">
+                        </div>
+                    </div>
+                    <div class="password">
+                        <label for="password" class="text-red-400 font-normal text-md">Password</label>
+                        <div class="relative">
+                            <input type="password" id="password" class="mt-2 p-2 w-full p-3 rounded-lg text-sm focus:outline-none border border-red-200 focus:ring-4 focus:ring-red-100 focus:border-red-400 transition duration-200">
+                        </div>
+                    </div>
+                    <div class="check flex justify-between">
+                        <div class="remember">
+                            <div class="flex items-center">
+                                <input type="checkbox" id="check">
+                                <span class="text-red-400 text-sm mx-1" for="check">Remember me</span>
+                            </div>
+                        </div>
+                        <div class="reset">
+                            <span class="text-red-400 text-sm underline"> <a href="reset.html">Reset Password</a></span>
+                        </div>
+                    </div>
+                    <button class="focus:outline-none bg-red-400 text-white py-3 w-full rounded-lg focus:ring-4 focus:ring-red-200 transition duration-200">Login</button>
+                </form>
+            </section>
+
+            <section class="flex flex-col items-center justify-center space-y-4">
+                <h2 class="text-gray-400 text-sm">Or Sig In With</h2>
+                <div>
+                    <ul  class="flex items-center justify-around space-x-5">
+                        <a href="">
+                            <li class="border border-red-400 h-full p-2 px-3 w-full rounded-full"><i class="fab fa-google text-red-400 text-lg"></i></li>
+                        </a>
+                        <a href="">
+                            <li class="border border-red-400 h-full p-2 px-3 w-full rounded-full"><i class="fab fa-facebook text-red-400 text-lg"></i></li>
+                        </a>
+                        <a href="">
+                            <li class="border border-red-400 h-full p-2 px-3 w-full rounded-full"><i class="fab fa-linkedin text-red-400 text-lg"></i></li>
+                        </a>
+                        <a href="">
+                            <li class="border border-red-400 h-full p-2 px-3 w-full rounded-full"><i class="fab fa-apple text-red-400 text-lg"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <span class="text-gray-400 text-sm">Have an Account? </span><a href="register.html" class="text-red-400 text-sm">Signup</a>
+                </div>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
